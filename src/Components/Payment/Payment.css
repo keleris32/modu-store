@@ -1,0 +1,58 @@
+.payment {
+  background-color: #fff;
+}
+
+.payment__container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+
+/* For the Link tag from react-router-dom */
+.payment__container > h1 a {
+  text-decoration: none;
+}
+
+.payment__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__title {
+  flex: 0.2; /* taking up 20% space */
+}
+
+.payment__address,
+.payment__items,
+.payment__details {
+  flex: 0.8; /* taking up 80% space */
+}
+
+.payment__details > form {
+  max-width: 450px;
+}
+
+.payment__details > h3 {
+  padding-bottom: 20px;
+}
+
+.payment__priceContainer > button {
+  background-color: #8b1010;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.7em 2.25em;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.payment__priceContainer > button:hover {
+  background-color: #740e0e;
+}

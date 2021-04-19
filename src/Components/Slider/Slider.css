@@ -1,0 +1,35 @@
+.slider {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+
+.slider > button {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.slide {
+  min-width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  overflow: hidden;
+  position: relative;
+}
+
+.goLeft {
+  left: 0;
+}
+
+.goRight {
+  right: 0;
+}
